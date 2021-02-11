@@ -1,0 +1,232 @@
+.layout nav{
+    font-family: 'Concert One', cursive;
+    text-align: left;
+}
+
+h1, .layout nav h2{
+    display: none;
+}
+
+.layout .home-info{
+    background-color: #0c5174;
+    width: 100%;
+}
+
+.layout .home-info .content-wrapper{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mdl-layout .mdl-layout__header .mdl-layout__header-row{
+    padding-left: 0;
+}
+
+.layout header{
+    height: 360px;
+    color: rgb(167, 29, 29);
+    padding-top: 62px;
+}
+
+.layout header h2{
+    font-family: 'Candal', sans-serif;
+}
+
+.layout header p{
+    font-family: 'Concert One', cursive;
+    font-size: 18px;
+}
+
+#services{
+    margin-top: 60px;
+    text-align: center;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #services h2,
+ #projects h2{
+     padding: 20px 10px 10px 10px;
+     text-align: center;
+}
+
+#services .material-icons{
+    font-size: 180px;
+    color: rgb(8, 11, 26);
+}
+
+@media(max-width: 839px){
+    #services .card-content .card,
+    #projects .projects-card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(min-width: 840px){
+    #projects .mdl-card{
+        width: auto;
+    }
+}
+
+#services .mdl-list__item-avatar{
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+}
+
+#services .mdl-card p{
+    font-size: 16px;
+}
+
+#projects h4{
+    font-family: 'Candal', sans-serif;
+}
+
+#projects p{
+    font-family: 'Concert One', cursive;
+}
+
+#projects .slide-one{
+    background-color: #4285f4;
+}
+
+#projects .figure{
+    position: relative;
+}
+
+#projects #color{
+    background-color: #b3d4fc;
+}
+
+#projects img{
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects .projects-card .mdl-card__supporting-text{
+    text-align: center;
+}
+
+#projects .projects-card .mdl-card__actions{
+    text-align: center;
+}
+
+#projects .projects-card .mdl-card__actions i{
+    font-size: 42px;
+    cursor: pointer;
+    color: #37474f;
+}
+
+#pricing,
+#contact{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ #pricing h2,
+ #contact h2{
+     padding: 40px 10px;
+     text-align: center;
+ }
+
+#pricing .pricing .offert-card .mdl-card__title{
+    width: 100%;
+    background-color: #1576a7;
+    padding: 8px;
+    color: #fff;
+}
+
+#pricing .pricing .offert-card .mdl-card__title h4{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pricing .mdl-list__item--two-line{
+    height: 92px;
+}
+
+#pricing .mdl-list__item-avatar, .mdl-list__item-avatar.material-icons{
+    background-color: #fff;
+    color: #000;
+}
+
+#pricing .pricing .offert-card{
+    border-radius: 15px;
+    width: auto;
+}
+
+#contact .contact-form .mdl-textfield{
+    width: 100%;
+}
+
+#contact{
+    margin-bottom: 100px;
+}
+
+footer .footer-list .mdl-mega-footer__heading,
+footer .footer-about .mdl-mega-footer__heading,
+footer .footer-media .mdl-mega-footer__heading{
+    font-size: 34px;
+    color: #0e2b5a;
+}
+
+footer .footer-media ul li{
+    float: left;
+}
+
+footer .footer-media ul li a i{
+    font-size: 42px;
+    color: #fff;
+    padding-right: 8px;
+}
+
+footer .footer-list .mdl-mega-footer__link-list li{
+    padding: 6px 0;
+}
+
+footer .footer-list .mdl-mega-footer__link-list li a{
+    font-size: 16px;
+}
+
+footer .mdl-mega-footer__bottom-section .mdl-logo{
+    color: #fff;
+}
+
+@media(min-width: 1026px){
+    footer .footer-about{
+        padding-right: 260px;
+    }
+}
+
+@media(min-width: 1024px){
+    .mdl-layout .mdl-layout__drawer-button i{
+        display: none;
+    }
+}
+
+@media(max-width: 839px){
+
+    .layout header{
+        padding-top: 22px;
+    }
+
+    .layout header h2{
+        font-size: 24px;
+    }
+
+    .layout header p{
+        font-size: 16px;
+    }
+}
