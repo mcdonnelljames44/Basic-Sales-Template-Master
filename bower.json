@@ -1,8 +1,7 @@
 {
-  "name": "htmlresponsivetemplates-blue-shield",
+  "name": "Basic Sales Master",
   "version": "1.0.0",
-  "homepage": "http://htmlresponsivetemplates.com/project/blue-shield",
-  "description": "Free open-source Material Design Lite landing page template.",
+  "description": "Editable sales website",
   "keywords": [
     "material design lite",
     "theme",
@@ -11,7 +10,7 @@
     "one page"
   ],
   "authors": [
-    "Mateusz Jerzyk"
+    "James McDonnell"
   ],
   "license": "MIT",
   "ignore": [
